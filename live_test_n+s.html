@@ -179,5 +179,26 @@
             </div>
             <p>&copy; 2025 Hearth & Brew. All rights reserved.</p>
         </footer>
+        <script>
+          window.addEventListener('DOMContentLoaded', () => {
+            const secretNote = document.createElement('div');
+            secretNote.textContent = "🕵️‍♀️ Psst--secret code! Tell a waiter/waitress 'we hearth and brew together!' and enjoy a free croissant.";
+            secretNote.style.position = 'fixed';
+            secretNote.style.bottom = '20px';
+            secretNote.style.right = '20px';
+            secretNote.style.backgroundColor = '#fff8e1';
+            secretNote.style.color = '#4e342e';
+            secretNote.style.padding = '12px 18px';
+            secretNote.style.border = '1px solid #d7ccc8';
+            secretNote.style.borderRadius = '12px';
+            secretNote.style.boxShadow = '0 2px 8px rgba(0,0,0,0.15)';
+            secretNote.style.fontSize = '14px';
+            secretNote.style.fontFamily = 'Georgia, serif';
+            secretNote.style.zIndex = '9999';
+            secretNote.style.opacity = '0.95';
+        
+            document.body.appendChild(secretNote);
+          });
+        </script>
     </body>
     </html>
