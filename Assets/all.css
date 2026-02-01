@@ -365,6 +365,85 @@ font-size: 1.1rem;
 color: #555; /* Darker for better readability */
 }
 
+/* Blog Styles */
+.blogs {
+background-color: white;
+}
+
+.blog-list {
+max-width: 900px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+gap: 2rem;
+}
+
+.featured-blog {
+background-color: var(--light);
+padding: 2rem;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+text-align: left;
+transition: transform 0.3s ease;
+}
+
+.featured-blog:hover {
+transform: translateY(-3px);
+}
+
+.featured-blog h3 {
+font-size: 1.8rem;
+margin-bottom: 0.5rem;
+}
+
+.featured-blog h3 a {
+color: var(--primary);
+text-decoration: none;
+transition: color 0.3s ease;
+}
+
+.featured-blog h3 a:hover {
+color: var(--accent);
+}
+
+.post-date {
+color: #b6b4b4;
+font-size: 0.95rem;
+margin-bottom: 1rem;
+font-weight: 500;
+}
+
+.excerpt {
+font-size: 1.05rem;
+line-height: 1.7;
+color: #555;
+margin-bottom: 1rem;
+}
+
+.read-more {
+color: var(--accent);
+text-decoration: none;
+font-weight: bold;
+transition: color 0.3s ease;
+}
+
+.read-more:hover {
+color: #FF8F00;
+}
+
+.more-blogs {
+display: inline-block;
+margin-top: 1rem;
+color: var(--primary);
+text-decoration: none;
+font-weight: bold;
+transition: color 0.3s ease;
+}
+
+.more-blogs:hover {
+color: var(--accent);
+}
+
 @media (max-width: 768px) {
 .hero h1 {
     font-size: 2rem;
@@ -392,7 +471,12 @@ color: #555; /* Darker for better readability */
     min-height: 120px;
     margin-bottom: 1rem; /* Add space below image on mobile */
 }
+
 .celebrity-content {
     padding: 1.5rem;
+}
+
+.featured-blog h3 {
+    font-size: 1.4rem;
 }
 }
