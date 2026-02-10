@@ -6,7 +6,7 @@
   
   <url>
     <loc>https://hearthandbrewcoffee.com/</loc>
-    <lastmod>2026-02-08</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -20,9 +20,23 @@
 
   <url>
     <loc>https://hearthandbrewcoffee.com/blog/</loc>
-    <lastmod>2026-02-08</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hearthandbrewcoffee.com/blog/late-night-cafe-kensington-market.html</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://hearthandbrewcoffee.com/blog/ultimate-studying-cafe-students.html</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
   </url>
 
   <url>
